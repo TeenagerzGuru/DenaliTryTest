@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Placeholder for Google Apps Script Web App URL
         // User needs to update this const with their deployment URL
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/library/d/1NVHBphLE9E5fB0Yh2f86_HY-gHho3itEuTTrib_zVFrgc_CXJp5GVHbw/1';
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzOmd8QPOIzwHtnLqEjH7Xm90NljcfsWDnrrTR45mdHjUwkqlHxV81x28_-KYJLqZi43A/exec';
 
         try {
-            if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/library/d/1NVHBphLE9E5fB0Yh2f86_HY-gHho3itEuTTrib_zVFrgc_CXJp5GVHbw/1') {
+            if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbzOmd8QPOIzwHtnLqEjH7Xm90NljcfsWDnrrTR45mdHjUwkqlHxV81x28_-KYJLqZi43A/exec') {
                 // Simulation mode if URL not set
                 console.log('Form Data Collected:', data);
                 await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate network delay
@@ -81,5 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
 
 
